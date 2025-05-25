@@ -1,20 +1,27 @@
-# What is Hiximai?
+# Hiximai
 
-Well, the correct word would be "will be," because the project is just getting started.
-But in short, Hiximai will be a CLI-based operating system, developed with a focus on developers.
-Hiximai will have its own text editor, which will support ≈15 languages.
+> *A terminal-focused operating system for developers who like pain, caffeine, and dark mode.*
 
-# Features:
+---
 
-## Text editor:
+## 🧠 What is Hiximai?
 
-"Hagaxin Code" is Hiximai's built-in editor.
-It will support the following languages:
+Well... the correct word would be *"will be"*, because the project is just getting started.
+
+**Hiximai** will be a CLI-based operating system, developed with a special focus on developers.  
+It’ll include its own built-in text editor and a custom shell, because clearly, I enjoy reinventing wheels and battling compilers at 3 AM.
+
+---
+
+## ✏️ Built-in Text Editor: *Hagaxin Code*
+
+This is the default editor in Hiximai. It will support around 15 languages, including:
+
 1. C++
 2. C
 3. C#
 4. JavaScript
-5. HTML (Even though it doesn't count as a programming language)
+5. HTML (Yes, we know it’s not a programming language)
 6. CSS
 7. Java
 8. Rust
@@ -23,27 +30,61 @@ It will support the following languages:
 11. Python
 12. Luau (Yes, THAT Luau.)
 13. Markdown
-14. YAML,
-And even more when the developer has enough mental stability and fewer fights with the compiler. (A.K.A never because the compiler frigging hates me)
+14. YAML  
+15. *(And more, once I recover some mental stability and stop arguing with the compiler.)*
 
-Will have a mandatory Dark Mode (Yes, DARK mode, what kind of psychopath uses light mode anyway?)
+Also:  
+✅ **Dark mode only.**  
+❌ Light mode not allowed. What kind of monster even uses that?
 
-## beginner-friendly Terminal:
+---
 
-We know that using a terminal can be complicated. Still, knowing that Hiximai is specifically for developers, I don't think there's a problem with that.
-But obviously, there will be people who don't understand what HTML is and still install the system for whatever reason.
-So we tried (well, I tried, that's just me) to make the shell as understandable as possible.
-And if you still don't understand anything, you can use `help -list` to get a list of all the terminal commands.
-And there you can use `help command` to get a description of the command.
+## 🖥️ Beginner-Friendly Terminal
+
+Yeah, terminals can be scary.  
+But this is Hiximai, and if you're here, you're probably a developer. Hopefully. Maybe. 😅
+
+Still, if you have no idea what HTML is and you *somehow* ended up here, don’t worry:  
+You can always type:
+
+```
+
+help -list
+
+```
+
+To get a full list of terminal commands.  
+Then, run:
+
+```
+
+help <command>
+
+```
+
+To get an explanation for any command.
+
 Example:
 ```
-user/hiximai help versionpls
+
+user>hiximai help versionpls
+
 > Shows currently installed system version.
-user/hiximai help list
-> Displays a list of everything inside the current directory (folder) 
-```
-## Language
-Since Windows has PowerShell, we have Suhix. It's the most minimalistic, lazy thing you'll ever see. Here's an example of a Suhix script:
+
+user>hiximai help list
+
+> Displays a list of everything inside the current directory (folder).
+
+````
+
+---
+
+## 🧪 Scripting Language: Suhix
+
+You’ve heard of PowerShell.  
+Now meet its underachieving, minimalist cousin: **Suhix**.
+
+Here’s what a Suhix script looks like:
 
 ```hix
 :path = "$"
@@ -52,10 +93,34 @@ e {
  s("Directory found, deleting...")
  sys.dir.del(path)
 }
-```
+````
 
-Yes, key"words" are one or two letters. Mhm. Let me explain what this attack on programming languages ​​means:
+Let’s break this beautiful crime against syntax down:
 
-`:path = "$"` -> Defines `path` variable as "$" (We'll get to what that means later)
-`i (!sys.dir.isReal(path))` -> "Do this if the user inputs everything but a valid path"
-`e {...}` -> "If nothing above was met, do this"
+* `:path = "$"` → Defines a variable called `path` with the value "`$`" (don’t worry, we’ll explain what `$` means later).
+* `i (!sys.dir.isReal(path))` → "If the directory doesn't exist, say so."
+* `e { ... }` → "Otherwise, do this."
+
+Yes. Keywords are **one or two letters**.
+Because the fewer the keystrokes, the less time the compiler has to judge you.
+
+---
+
+## 🚧 Status
+
+This project is in early development.
+Bugs are expected. Sleep is not.
+
+---
+
+## 🙌 Contributions?
+
+If you’re crazy enough to want to help, feel free to fork, star, or open issues.
+Just don’t ask for a light mode.
+
+---
+
+## 💬 Author
+
+Made by [Wernasho (a.k.a. Wer)](https://github.com/Wernasho) — currently fighting compilers and summoning demons through Assembly.
+Fun fact: Said code master is, as of writing this (25/5/2025 2:14 AM GMT-3), is only **13 years old**.
