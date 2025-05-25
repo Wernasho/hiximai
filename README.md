@@ -104,6 +104,23 @@ Let’s break this beautiful crime against syntax down:
 Yes. Keywords are **one or two letters**.
 Because the fewer the keystrokes, the less time the compiler has to judge you.
 
+## 📁 New Path system
+
+Hiximai will count with its own unique path system, because `/` and `\` are too basic. Instead, it'll use `>` to separate directories.
+Comparison:
+Windows:
+C:\Users\User\Desktop\Folder\SubFolder
+Hiximai:
+$:desktop>folder>subfolder
+
+Very readable, ins't it?
+And, yeah, I know what you're thiking, I'll tell you what the hell does `$` mean.
+
+### Disks
+
+Well, to make it short: `$` is the root disk, the one where the system is installed.
+All additional disks other than `$` will recieve a numeric order, starting from one up to... Er... idk, 10? Why would you need more than ten disks?
+
 ---
 
 ## 🚧 Status
@@ -117,10 +134,12 @@ Bugs are expected. Sleep is not.
 
 If you’re crazy enough to want to help, feel free to fork, star, or open issues.
 Just don’t ask for a light mode.
+Jokes aside, if you want to help me, reach out to my discord @wernasho. (Yeah, I love that username tbh)
+Any help is really appreciated!
 
 ---
 
 ## 💬 Author
 
 Made by [Wernasho (a.k.a. Wer)](https://github.com/Wernasho) — currently fighting compilers and summoning demons through Assembly.
-Fun fact: Said code master is, as of writing this (25/5/2025 2:14 AM GMT-3), is only **13 years old**.
+Fun fact: I, as of writing this (25/5/2025 2:14 AM GMT-3), am only **13 years old**.
