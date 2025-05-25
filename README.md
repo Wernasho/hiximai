@@ -2,6 +2,9 @@
 
 > *A terminal-focused operating system for developers who like pain, caffeine, and dark mode.*
 
+![Build in progress](https://img.shields.io/badge/build-WIP-yellow)
+![Dark Mode Only](https://img.shields.io/badge/Dark%20mode%20is-Mandatory-black)
+
 ---
 
 ## 🧠 What is Hiximai?
@@ -116,7 +119,7 @@ $:desktop>folder>subfolder
 Very readable, ins't it?
 And, yeah, I know what you're thiking, I'll tell you what the hell does `$` mean.
 
-### Disks
+### 💿 Disks
 
 Well, to make it short: `$` is the root disk, the one where the system is installed.
 All additional disks other than `$` will recieve a numeric order, starting from one up to... Er... idk, 10? Why would you need more than ten disks?
