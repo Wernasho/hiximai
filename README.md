@@ -1,82 +1,60 @@
-/******************************************
+# What is Hiximai?
 
-█     █ █ █     █ █ ████  █████     █     █
-█     █    █   █    █   ██    █    █ █    
-███████ █   █ █   █ █   ██    █   █   █   █
-█     █ █    █    █ █         █  █     █  █
-█     █ █   █ █   █ █         █ █ █████ █ █
-█     █ █  █   █  █ █         █ █       █ █
+Well, the correct word would be "will be," because the project is just getting started.
+But in short, Hiximai will be a CLI-based operating system, developed with a focus on developers.
+Hiximai will have its own text editor, which will support ≈15 languages.
 
-******************************************/
+# Features:
 
-# ¿Qué es Hiximai?
+## Text editor:
 
-Bueno, la palabra correcta sería "Será", porque el proyecto apenas está empezando.
-Pero en resumen, Hiximai será un sistema operativo basado en CLI, desarrollado con foco en desarrolladores.
-Hiximai contará con su propio editor de texto, el cual soportará ≈15 lenguajes.
-
-# Caracterísiticas:
-
-## Editor de texto: 
-
-"Hagaxin Code" Es el editor integrado de Hiximai.
-Soportará los siguientes lenguajes:
+"Hagaxin Code" is Hiximai's built-in editor.
+It will support the following languages:
 1. C++
 2. C
 3. C#
 4. JavaScript
-5. HTML (aunque no sea un lenguaje de programación)
+5. HTML (Even though it doesn't count as a programming language)
 6. CSS
 7. Java
 8. Rust
 9. Go
 10. Lua
 11. Python
-12. Luau (Sí, ESE Luau.)
+12. Luau (Yes, THAT Luau.)
 13. Markdown
 14. YAML,
-Y más cuando el desarrollador tenga suficiente estabilidad mental y menos peleas con el compilador.
+And even more when the developer has enough mental stability and fewer fights with the compiler. (A.K.A never because the compiler frigging hates me)
 
-Contará con un Modo Oscuro forzado (Sí, modo OSCURO, ¿qué clase de psicópata usa modo claro de todas formas?)
+Will have a mandatory Dark Mode (Yes, DARK mode, what kind of psychopath uses light mode anyway?)
 
-## Terminal beginner-friendly:
+## beginner-friendly Terminal:
 
-Sabemos que usar una terminal puede ser complicado. Igual, sabiendo que Hiximai es para desarrolladores específicamente, no creo que haya problema con eso.
-Pero obviamente que va a haber gente que no sepa que es HTML que aún así se instale el sistema por x motivo.
-Así que intentamos (bueno, intenté, soy solo yo-) hacer el shell lo más comprensible posible.
-Y si aún así no entendes ni corno, podes usar `help -list` para obtener una lista de todos los comandos de la terminal.
-Y ahí podes usar `help comando` para obtener una descripción del comando.
-Ejemplo:
+We know that using a terminal can be complicated. Still, knowing that Hiximai is specifically for developers, I don't think there's a problem with that.
+But obviously, there will be people who don't understand what HTML is and still install the system for whatever reason.
+So we tried (well, I tried, that's just me) to make the shell as understandable as possible.
+And if you still don't understand anything, you can use `help -list` to get a list of all the terminal commands.
+And there you can use `help command` to get a description of the command.
+Example:
 user/hiximai help versionpls
-> muestra la versión instalada del Sistema.
+> Shows currently installed system version.
 user/hiximai help list
-> Muestra una lista de todo lo que esté dentro del directorio(carpeta) actual 
+> Displays a list of everything inside the current directory (folder) 
 
-## Lenguaje
-
-Como Windows Tiene a Powershell, nosotros tenemos a Suhix. Es la cosa más minimalisticamente floja que vas a ver en tu vida. Esto es un ejemplo de un script de suhix:
+## Language
+Since Windows has PowerShell, we have Suhix. It's the most minimalistic, lazy thing you'll ever see. Here's an example of a Suhix script:
 
 ```hix
 :path = "$"
-i (!sys.dir.isReal(path)) { s("El directorio al que intentas acceder no existe.") }
+i (!sys.dir.isReal(path)) { s("Directory does not exist.") }
 e {
- s("Directorio encontrado, eliminando...")
+ s("Directory found, deleting...")
  sys.dir.del(path)
 }
 ```
 
-Sí, las key'words' son una o dos letras. Mhm. A ver, les explico que significa este atentado contra los lenguajes de programación:
+Yes, key"words" are one or two letters. Mhm. Let me explain what this attack on programming languages ​​means:
 
-`:path = "$"` -> Define la variable "path" a  '$' (ya vamos a ver que significa eso)
-`i (!sys.dir.isReal(path))` -> Hace esto si el usuario puso cualquier cosa menos una ruta válida
-`e {...}` -> Si no se cumplió lo anterior, hacé esto (borrar el directorio).
-
-## Estado Actual 🧪
-
-- [x] Logo ASCII
-- [x] Core del shell (básico)
-- [ ] Sistema de comandos modular
-- [ ] Configuración multilenguaje
-- [ ] Editor "Hagaxin Code"
-- [ ] Configuración General
-- [ ] Lenguaje de scripting ligero.
+`:path = "$"` -> Defines `path` variable as "$" (We'll get to what that means later)
+`i (!sys.dir.isReal(path))` -> "Do this if the user inputs everything but a valid path"
+`e {...}` -> "If nothing above was met, do this"
