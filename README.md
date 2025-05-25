@@ -116,13 +116,13 @@ C:\Users\User\Desktop\Folder\SubFolder
 Hiximai:
 $:desktop>folder>subfolder
 
-Very readable, ins't it?
-And, yeah, I know what you're thiking, I'll tell you what the hell does `$` mean.
+Very readable, isn't it?
+And, yeah, I know what you're thinking, I'll tell you what the hell does `$` mean.
 
 ### 💿 Disks
 
 Well, to make it short: `$` is the root disk, the one where the system is installed.
-All additional disks other than `$` will recieve a numeric order, starting from one up to... Er... idk, 10? Why would you need more than ten disks?
+All additional disks other than `$` will receive a numeric order, starting from one up to... Er... idk, 10? Why would you need more than ten disks?
 
 ---
 
@@ -130,6 +130,17 @@ All additional disks other than `$` will recieve a numeric order, starting from 
 
 This project is in early development.
 Bugs are expected. Sleep is not.
+
+And, talkking about status, let's talk about versions:
+
+### 🆕 Versions
+
+Currently, this is on version -1.0, because, well, I haven't even finsihed the shell yet-
+And yes, the first ever released version is going to be the 0.0
+
+And everything will have its own version. The shell will have its own version, Hagaxin Code will have its own versions, etc., etc.
+
+Why? Because why not?
 
 ---
 
@@ -145,4 +156,5 @@ Any help is really appreciated!
 ## 💬 Author
 
 Made by [Wernasho (a.k.a. Wer)](https://github.com/Wernasho) — currently fighting compilers and summoning demons through Assembly.
+
 Fun fact: I, as of writing this (25/5/2025 2:14 AM GMT-3), am only **13 years old**.
