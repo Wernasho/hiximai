@@ -36,11 +36,12 @@ So we tried (well, I tried, that's just me) to make the shell as understandable 
 And if you still don't understand anything, you can use `help -list` to get a list of all the terminal commands.
 And there you can use `help command` to get a description of the command.
 Example:
+```
 user/hiximai help versionpls
 > Shows currently installed system version.
 user/hiximai help list
 > Displays a list of everything inside the current directory (folder) 
-
+```
 ## Language
 Since Windows has PowerShell, we have Suhix. It's the most minimalistic, lazy thing you'll ever see. Here's an example of a Suhix script:
 
